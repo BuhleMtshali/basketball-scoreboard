@@ -5,15 +5,16 @@ body {
 }
 
 .container {
-  max-width: 850px;
-  height: 800px;
+  max-width: 900px;
+  height: 900px;
   background-color: #ced4da;
   opacity: 0.9;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: auto;
   margin-top: 80px;
   padding-top: 20px;
+
   font-family: cursive;
   display: flex;
   justify-content: space-around;
