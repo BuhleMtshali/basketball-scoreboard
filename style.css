@@ -6,14 +6,14 @@ body {
 
 .container {
   max-width: 800px;
-  height: 600px;
+  height: 800px;
   background-color: #ced4da;
   opacity: 0.9;
   border: none;
   border-radius: 10px;
   margin: auto;
-  margin-top: 100px;
-  padding-top: 60px;
+  margin-top: 80px;
+  padding-top: 40px;
   font-family: cursive;
   display: flex;
   justify-content: space-around;

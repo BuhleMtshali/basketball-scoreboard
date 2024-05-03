@@ -1,5 +1,27 @@
 let count = 0;
 let countGuest = 0;
+let saveFeatureHome = document.querySelector("#score-display-home");
+let saveFeatureGuest = document.querySelector("#score-display-guest");
+
+function saveHomeScore(event) {
+  event.preventDefault();
+  let countStr = count + "-";
+
+  saveFeatureHome.innerHTML += countStr;
+}
+
+let saveButtonElement = document.querySelector("#save-home");
+saveButtonElement.addEventListener("click", saveHomeScore);
+
+function saveGuestScore(event) {
+  event.preventDefault();
+  let countGuestStr = countGuest + "-";
+
+  saveFeatureGuest.innerHTML += countGuestStr;
+}
+
+let saveGuestButtonElement = document.querySelector("#save-guest");
+saveGuestButtonElement.addEventListener("click", saveGuestScore);
 
 function increment(event) {
   event.preventDefault();
@@ -39,6 +61,7 @@ function resetScoreHome(event) {
   count = 0;
   let scoreHeading = document.querySelector("#score-home");
   scoreHeading.innerHTML = count;
+  saveFeatureHome.innerHTML = "Previous score:";
 }
 
 let resetButtonElement = document.querySelector("#reset-home");
@@ -79,6 +102,7 @@ function resetScoreGuest(event) {
   countGuest = 0;
   let scoreGuest = document.querySelector("#score-guest");
   scoreGuest.innerHTML = countGuest;
+  saveFeatureGuest.innerHTML = "Previous Score: ";
 }
 
 let resetButtonGuestElement = document.querySelector("#reset-guest");
