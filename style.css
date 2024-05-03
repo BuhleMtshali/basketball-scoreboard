@@ -1,23 +1,31 @@
 .container {
-  max-width: 600px;
-  height: 400px;
+  max-width: 800px;
+  height: 600px;
   background-color: #c8b6ff;
   border: none;
   border-radius: 10px;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 100px;
+  padding-top: 60px;
+  font-family: cursive;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
+
 .home {
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   border: none;
   border-radius: 10px;
   background-color: #b8c0ff;
+  margin-top: 20px;
 }
 .guest {
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   border: none;
   border-radius: 10px;
   background-color: #b8c0ff;
+  margin-top: 20px;
 }
