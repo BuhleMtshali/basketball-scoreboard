@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 850px;
   height: 800px;
   background-color: #ced4da;
   opacity: 0.9;
@@ -13,7 +13,7 @@ body {
   border-radius: 10px;
   margin: auto;
   margin-top: 80px;
-  padding-top: 40px;
+  padding-top: 30px;
   font-family: cursive;
   display: flex;
   justify-content: space-around;
@@ -22,8 +22,15 @@ body {
   font-weight: 600;
   color: black;
 }
+h1 {
+  color: red;
+}
 h2 {
   font-size: 60px;
+  color: red;
+}
+p {
+  color: red;
 }
 .home {
   width: 300px;
@@ -42,7 +49,7 @@ h2 {
   margin-top: 20px;
 }
 button {
-  width: 75px;
+  width: 85px;
   height: 55px;
   border: none;
   border-radius: 5px;
@@ -71,11 +78,11 @@ button {
 }
 button:hover {
   background-color: white;
-  color: black;
+  color: red;
   transition: all 0.3s ease-in-out;
 }
 .reset:hover {
   background-color: white;
-  color: black;
+  color: red;
   transition: all 0.3s ease-in-out;
 }
