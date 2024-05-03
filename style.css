@@ -1,7 +1,14 @@
+body {
+  background-image: url("images/pexels-catiamatos-1045534.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .container {
   max-width: 800px;
   height: 600px;
-  background-color: #c8b6ff;
+  background-color: #ced4da;
+  opacity: 0.8;
   border: none;
   border-radius: 10px;
   margin: auto;
@@ -11,14 +18,18 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+  font-size: 40px;
+  font-weight: 600;
 }
-
+h2 {
+  font-size: 40px;
+}
 .home {
   width: 300px;
   height: 300px;
   border: none;
   border-radius: 10px;
-  background-color: #b8c0ff;
+
   margin-top: 20px;
 }
 .guest {
@@ -26,6 +37,12 @@
   height: 300px;
   border: none;
   border-radius: 10px;
-  background-color: #b8c0ff;
+
   margin-top: 20px;
+}
+button {
+  width: 65px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
 }
