@@ -1,0 +1,23 @@
+.container {
+  max-width: 600px;
+  height: 400px;
+  background-color: #c8b6ff;
+  border: none;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 80px;
+}
+.home {
+  width: 200px;
+  height: 150px;
+  border: none;
+  border-radius: 10px;
+  background-color: #b8c0ff;
+}
+.guest {
+  width: 200px;
+  height: 150px;
+  border: none;
+  border-radius: 10px;
+  background-color: #b8c0ff;
+}
