@@ -5,9 +5,15 @@ let saveFeatureGuest = document.querySelector("#score-display-guest");
 
 function saveHomeScore(event) {
   event.preventDefault();
-  let countStr = count + "-";
-
-  saveFeatureHome.innerHTML += countStr;
+  const currentEntries = saveFeatureHome.innerHTML.split("-").length - 1;
+  if (currentEntries < 3) {
+    let countStr = count + "-";
+    saveFeatureHome.innerHTML += countStr;
+  } else {
+    alert(
+      "Cannot save more than 3 scores, please reset the scoreboard first!!"
+    );
+  }
 }
 
 let saveButtonElement = document.querySelector("#save-home");
@@ -15,9 +21,15 @@ saveButtonElement.addEventListener("click", saveHomeScore);
 
 function saveGuestScore(event) {
   event.preventDefault();
-  let countGuestStr = countGuest + "-";
-
-  saveFeatureGuest.innerHTML += countGuestStr;
+  const currentEntries = saveFeatureGuest.innerHTML.split("-").length - 1;
+  if (currentEntries < 3) {
+    let countGuestStr = countGuest + "-";
+    saveFeatureGuest.innerHTML += countGuestStr;
+  } else {
+    alert(
+      "Cannot save more than 3 scores, please reset the scoreboard first!!"
+    );
+  }
 }
 
 let saveGuestButtonElement = document.querySelector("#save-guest");
