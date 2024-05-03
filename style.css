@@ -8,7 +8,7 @@ body {
   max-width: 800px;
   height: 600px;
   background-color: #ced4da;
-  opacity: 0.8;
+  opacity: 0.9;
   border: none;
   border-radius: 10px;
   margin: auto;
@@ -20,9 +20,10 @@ body {
   text-align: center;
   font-size: 40px;
   font-weight: 600;
+  color: black;
 }
 h2 {
-  font-size: 40px;
+  font-size: 60px;
 }
 .home {
   width: 300px;
@@ -41,8 +42,40 @@ h2 {
   margin-top: 20px;
 }
 button {
-  width: 65px;
-  height: 45px;
+  width: 75px;
+  height: 55px;
   border: none;
   border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+#reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 70px;
+  border: none;
+  margin-top: 34px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+#reset:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
 }
